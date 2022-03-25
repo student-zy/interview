@@ -9,5 +9,8 @@ public class LruCacheDemo2 {
 
     public static void main(String[] args) {
 
+        String s = "jack";
+        System.out.println("s = " + s);
+
     }
 }
