@@ -1,5 +1,8 @@
 package com.example.interview.shangguigu_zhouyang.third;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @program: interview
  * @Author: zy_zhao
@@ -11,6 +14,8 @@ public class LruCacheDemo2 {
 
         String s = "jack";
         System.out.println("s = " + s);
+        List<String> strings = Arrays.asList("1", "2", "marry", "lili");
+        System.out.println("strings = " + strings);
 
     }
 }
