@@ -16,6 +16,7 @@ public class LruCacheDemo2 {
         System.out.println("s = " + s);
         List<String> strings = Arrays.asList("1", "2", "marry", "lili");
         System.out.println("strings = " + strings);
+        System.out.println("=============");
 
     }
 }
