@@ -31,7 +31,6 @@ public class LruCacheDemo<K,V> extends LinkedHashMap<K,V>{
         System.out.println(lruCacheDemo.keySet());
 
         lruCacheDemo.put(4, "x");
-
         System.out.println(lruCacheDemo.keySet());
 
         lruCacheDemo.put(3, "c");
@@ -43,7 +42,6 @@ public class LruCacheDemo<K,V> extends LinkedHashMap<K,V>{
 
         lruCacheDemo.put(5, "y");
         System.out.println(lruCacheDemo.keySet());
-
 
     }
 }
